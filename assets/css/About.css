@@ -1,0 +1,202 @@
+/* font-family: 'Abel', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+body{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;  
+}
+nav img{
+    margin-left: 2%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+    width: 20%;
+    margin-right: 3%;
+    list-style: none; 
+    font-family: 'Work Sans', sans-serif; 
+}
+nav a{  
+    text-decoration: none;
+    color: #5A98D0;
+    transition: 1s all;
+    font-size: 20px;
+}
+nav a:hover{
+
+   font-size: 25px;
+    border-bottom: 3px solid  #316099;
+    border-radius: 3px;
+    color: #316099;
+}
+.head{
+  background: url(../img/Screenshot\ 2020-10-08\ at\ 21.45.59.png) center / cover no-repeat;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Abel', sans-serif;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.park-bequem{
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+
+   .div-park{
+    width: 40%;
+    margin-right: 7%;
+    margin-top: 15%;
+    margin-left: 5%;
+    
+  }
+  .div-park h1{
+    font-size: 40px;
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 10%;
+    color: #316099;
+  }
+  .div-park h2{
+    font-size: 35px;
+    font-family: 'Abel', sans-serif;
+    color: #316099;
+  }
+  .div-park p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+  color: #316099;
+  line-height: 40px;
+  }
+  .paypal{
+    margin-top:20%;
+    margin-left: 5%;
+    height: 100vh; 
+  } 
+  .paypal img{
+      height: 80vh;
+  }
+
+
+  .Sensoren{
+    display: flex;
+    justify-content: space-between; 
+  }
+   .div-Sensoren{
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 15%;
+    
+  }
+  .div-Sensoren h1{
+    font-size: 40px;
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 10%;
+    color: #316099;
+    
+  }
+  
+  .div-Sensoren p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+  color: #316099;
+  line-height: 45px;
+  
+  }
+  .img-Sensoren{
+    margin-top:7%;
+    margin-right: 5%;
+    height: 100vh; 
+  } 
+  .img-Sensoren img{
+      height: 80vh;
+  }
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;400;500&display=swap');
+
+body {
+    margin:0;
+}
+main {
+    height:50vh;
+}
+footer {
+    background:#316099;
+    min-height: 50vh;
+    border-top-right-radius: 200px;
+    color:#fff;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1rem;
+}
+.footer-top {
+    padding-top:5vh;
+    display:flex;
+    justify-content: space-between ;
+    align-items: center;
+    line-height: 30px;
+    width:75%;
+    padding-bottom:5vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.767);
+}
+.footer-top img {
+    width:40%;
+    padding-left:5%;
+}
+.about-us {
+    margin-left:25%;
+}
+.follow-us {
+    margin-right:1%;
+}
+footer ul {
+    list-style: none;
+    padding:0;
+}
+footer a {
+ text-decoration: none;
+ margin:0;
+ color:#fff;
+}
+.download-us {
+    margin-left:5%;
+}
+.download-us img{
+    width:20%;
+}
+.footer-bottom {
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width:80%;
+}
+.contact-us {
+    width:80%;
+}
+.contact-us span {
+    margin-right:2rem;
+}
+.contact-us p:last-of-type {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.349);
+    word-spacing: .5rem;
+}
+footer h3 {
+    font-size: 2rem;
+}
+.span-2{ 
+  margin-left: 11%;
+}
